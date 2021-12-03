@@ -1,0 +1,32 @@
+#python code to demonstrate matrix add subtract multiplication
+import numpy as np
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[4, 5], [6, 7]])
+print("Printing elements of first matrix")
+print(A)
+print("Printing elements of second matrix")
+print(B)
+print("Addition of two matrix")
+print(np.add(A, B))
+print("subtraction of two matrix")
+print(np.subtract(A, B))
+print("multiplication of two matrix")
+print(np.dot(A, B))
+
+
+OUTPUT
+Printing elements of first matrix
+[[1 2]
+ [3 4]]
+Printing elements of second matrix
+[[4 5]
+ [6 7]]
+Addition of two matrix
+[[ 5  7]
+ [ 9 11]]
+subtraction of two matrix
+[[-3 -3]
+ [-3 -3]]
+multiplication of two matrix
+[[16 19]
+ [36 43]]
