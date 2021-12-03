@@ -1,0 +1,14 @@
+import numpy as np
+a = np.matrix('1 2;3 4')
+print(a)
+max=a.max()
+print("max= ",max)
+min=a.min()
+print("min=",min)
+ 
+ 
+OUTPUT
+[[1 2]
+ [3 4]]
+max=  4
+min= 1
